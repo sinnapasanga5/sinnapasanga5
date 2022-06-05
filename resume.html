@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CV</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<header>
+	<div class="hd">
+		<div class="H">
+			<li>
+				<a href="#">Home</a>
+			</li>
+		</div>
+		<div class="E">
+			<li>
+				<a href="#">Experience</a>
+			</li>
+		</div>
+		<div class="S">
+			<li>
+				<a href="#">Skill</a>
+			</li>
+		</div>
+		<div class="I">
+			<li>
+				<a href="#">Info</a>
+			</li>
+		</div>
+	</div>
+</header>
+<style>
+	*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    background: #1a1a1a;
+}
+header
+{
+    left: 37%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    width: 300px;
+    height: 50px;
+    background: rgb(0, 236, 236);
+    border-radius: 50px;
+    z-index: 2;
+}
+.glow
+{
+    margin-left: 36%;
+    margin-top: -85px;
+    position: fixed;
+    width: 325px;
+    height: 60px;
+    background: rgb(0, 236, 236);
+    align-items: center;
+    border-radius: 55px;
+    filter: blur(10px);
+    opacity: 0.2;
+    transition: 0.2s;
+
+}
+.hd
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.hd li
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.hd li a
+{
+    color: black;
+    text-decoration: none;
+}
+.hd li a:hover
+{
+    border-bottom: 2px dashed #fff;
+    color: #fff;
+    font-size: 1.5em;
+    transition: 0.3s;
+    
+}
+.hd li :active
+{
+    color:lime;
+}
+.H:hover
+{
+    border-right: 2px solid white;
+}
+.E:hover
+{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.S:hover
+{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.I:hover
+{
+    border-left: 2px solid white;
+}
+.container
+{
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 20%;
+    width: 60%;
+    background:linear-gradient(to top right, rgb(74, 134, 134)1%,rgb(16, 45, 46)100%);
+    height: 1000px;
+}
+</style>
+<body>
+	<div class="glow"></div>
+	<div class="container">
+		<div class="content">
+			<h2>Your name here</h2><br>
+			This is resume about __________.This resume is made in HTML5 and casecading sheet.In this resume you find out the all
+		</div>
+	</div>
+</body>
+</html>
